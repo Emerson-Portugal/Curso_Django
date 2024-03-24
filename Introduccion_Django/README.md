@@ -2,6 +2,10 @@
 
 Aquí te presento una estructura básica para tus proyectos en Django. Con esta organización, podrás hacer que tus proyectos sean escalables y estén mejor estructurados, preparándolos para la implementación de Microservicios.
 
+
+
+
+
 ## Estrutura Basasica 
 
 
@@ -9,6 +13,31 @@ Aquí te presento una estructura básica para tus proyectos en Django. Con esta 
   <img src="django.jpg" style="display: block; margin: 0 auto; width: 300px;">
 </center>
 
+
+### Opcional 
+
+Podemos crear un entorno virtual para trabajar mejor con la versiones de nuestrar librerias
+
+```python
+virtualenv -p python3.9 venv 
+```
+
+```python
+virtualenv -p python venv 
+```
+
+```python
+.\venv\Scripts\activate
+```
+
+## Instalacion de Librerias
+
+```python
+pip install django django-environ
+```
+
+
+## Implementacion 
 
 1. Lo primero es crear nuestro proyecto Base *CORE*
 
@@ -19,10 +48,6 @@ django-admin startproject core .
 2. Configurar la estrutura del archivo *settings.py*
 
     2.1. Crear el archivo `.env` y configurar el archivo *settings.py*
-
-```python
-django-admin startproject core .  
-```
 
 > Antes
 
