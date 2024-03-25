@@ -5,8 +5,6 @@ Con este Repositorio, aprenderás a estructurar tus proyectos en *Django* de man
 ## RUTA
 
 * [x] Introduccion a Django
-* [ ] CRUD con Django
-* [ ] Login con Django
 * [ ] Login y CRUD con PostgreSQL en Django
 * [ ] Conexion y Despliegue en Docker con Django
 * [ ] Implementacion de CRUD, LOGIN, POSGRESQL en Django usando Docker
