@@ -136,26 +136,17 @@ INSTALLED_APPS = [
 # Application definition
 
 DJANGO_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+
 ]
 
 
 PROJECT_APPS = [
-    'apps.',
+
 
 ]
 
 THIRD_PARTY_APPS = [
-    'corsheaders',
-    'rest_framework',
-    'ckeditor',
-    'ckeditor_uploader',
-]
+
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 ```
@@ -166,17 +157,12 @@ INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 # Application definition
 
 DJANGO_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+
 ]
 
 
 PROJECT_APPS = [
-    'apps.',
+
 
 ]
 
@@ -185,5 +171,21 @@ INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
 
 ```
 
+### Creacion de la carpeta  *apps*
+
+4. Vamos crear una carpeta con el nombre `apps`, en esta carpeta vamos almacenar nuestras `app`.
+
+<center>
+  <img src="apps.jpg" style="display: block; margin: 0 auto; width: 300px;">
+</center>
+
+5. Una vez creada nuestra carpeta `apps`, vamos a crear nuestros diferentes `app` que compartirán sus funcionalidades  pero que serán independientes entre si 
 
 
+```python
+ python ../manage.py startapp "app" 
+```
+
+<center>
+  <img src="app.jpg" style="display: block; margin: 0 auto; width: 300px;">
+</center>
